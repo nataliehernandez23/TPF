@@ -103,7 +103,7 @@ p{
 /*Acerca*/
 
 #estilo1{
-    position: relative;
+    position: absolute;
     top: 20px;
     width:60%;
     height:170px;

@@ -77,115 +77,8 @@ h3{
   animation-duration: 3s;
 }
 
-@keyframes Index{
-  0%{opacity: 0;}
-  50%{opacity: 0.5;}
-  100%{opacity: 1;}
-}
-
-@keyframes Yes{
-  50%{opacity: 0;}
-  100%{opacity: 1;}
-}
-
-
-/*menu y footer*/
-ol,ul {
-    list-style: none;
-}
-
-nav{
-    height:40px;
-}
-#mNav {
-    margin: 30px;
-    width: 1200px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-#mNav li {
-    display: inline-block;
-    width:130px;
-    float:left;
-    margin-left:10px;
-    text-align: center;
-}
-
-#mNav a {
-    display:block;
-    padding:3px;
-    text-decoration:none;
-    background-color:#fff;
-    color:black;
-}
-            
-
-#mNav a:hover {
-    color:pink;
-}
-
-
-
-/*main*/
-.estiloMain{
-    border: 3px pink;
-    float: left;
-
-}
-.estiloMain: after{
-  clear: both;
-}
-
-
-.estilomain{
-    position: relative;
-    height: 900px;
-    border-left: solid pink 3px;
-    right: 200px;
-    float: left;
-}
-/*Acerca*/
-
-#estilo1{
-    position: absolute;
-    top: 20px;
-    width:60%;
-    height:150px;
-    background-color: #F3C7D0;
-    right: 120px;
-}
-#estilo2{
-    position: relative;
-    top: 25px;
-    width:120px;
-    height: 100%;
-    background-color: #F3C7D0;
-    left: 82.5%;
-}
-
-#acerca{
-  position: relative;
-}
-#acerca p{
-    
-    font-size: 18px;
-    text-align: justify;
-    width: 30%;
-    margin-right: 1.5%;
-
-}
 
 /*exposiciones*/
-
-
-.wrap
-{
-  margin:50px auto 0 auto;
-  width:100%;
-  display:flex;
-  align-items:space-around;
-  max-width:1200px;
-}
 .tile
 {
   width:310px;
@@ -215,7 +108,7 @@ nav{
 }
 .tile .text
 {
-/*   z-index:99; */
+
   position:absolute;
   padding:30px;
   height:calc(100% - 60px);
@@ -316,43 +209,23 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 {
    transition-delay: 0.15s;
 }
-
-@keyframes imageAnimation { 
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: 1; animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+/*formulario*/
+.wrap
+{
+  margin:50px auto 0 auto;
+  width:100%;
+  display:flex;
+  align-items:space-around;
+  max-width:1200px;
 }
-@keyframes titleAnimation { 
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
 
-@keyframes imageAnimation { 
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: 1; animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
-}
-@keyframes titleAnimation { 
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-
-}
 /*registro*/
 .formu{
     max-width: 500px;
     border-radius: 8px;
     text-align:center;
      position: relative;
-    left: 70%;
+
   
 }
 .formu fieldset{
@@ -435,9 +308,103 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 .formu input[type="submit"]:hover,
 .formu input[type="button"]:hover
 {
-   background:#CCC;
+   background:#F3C7D0;
   color:#000;
 }
+
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+
+}
+@keyframes Index{
+  0%{opacity: 0;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
+}
+
+@keyframes Yes{
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+/*classes previous*/
+/*menu y footer*/
+ol,ul {
+    list-style: none;
+}
+
+nav{
+    height:40px;
+}
+#mNav {
+    margin: 30px;
+    width: 1200px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#mNav li {
+    display: inline-block;
+    width:130px;
+    float:left;
+    margin-left:10px;
+    text-align: center;
+}
+
+#mNav a {
+    display:block;
+    padding:3px;
+    text-decoration:none;
+    background-color:#fff;
+    color:black;
+}
+            
+
+#mNav a:hover {
+    color:pink;
+}
+
+
+
+
+#acerca p{
+    
+    font-size: 18px;
+    text-align: justify;
+    width: 30%;
+    margin-right: 1.5%;
+
+}
+
+
+
+
 
 
 

@@ -20,6 +20,8 @@
 
 .main-m .nav-link:hover{
   color: #F3C7D0 !important;
+     animation-name: Yes;
+     animation-duration: 2s;
 }
 
 /*fin del estilo de fucking menu*/
@@ -68,6 +70,22 @@ h3{
     font-weight: 500;
 }
 
+.circle img{
+  animation-name: Index;
+  animation-duration: 3s;
+}
+
+@keyframes Index{
+  0%{opacity: 0;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
+}
+
+@keyframes Yes{
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
 
 /*menu y footer*/
 ol,ul {
@@ -103,9 +121,6 @@ nav{
 #mNav a:hover {
     color:pink;
 }
-
-
-
 
 
 

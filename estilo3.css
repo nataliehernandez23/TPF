@@ -253,12 +253,14 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     margin-bottom: 8px;
     color: white;
 }
+/*campo*/
 .formu input[type="text"],
 .formu input[type="email"],
 .formu input[type="number"],
 .formu input[type="file"],
 .formu input[type="radio"],
 .formu textarea,
+/*combo*/
 .formu select {
     border: none;
     border-radius: 4px;

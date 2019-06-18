@@ -54,9 +54,19 @@ bottom: 23px;
 position: relative;
 }
 
+p.index{
+    font-family: 'Work Sans', sans-serif,;
+    font-style: bold;
+ 
+   padding-top:45%;
+    font-size: 30px;
+}
 
 
-
+h3{
+  font-family: 'Work Sans', sans-serif,;
+    font-weight: 500;
+}
 
 
 /*menu y footer*/
@@ -107,13 +117,6 @@ nav{
 }
 .estiloMain: after{
   clear: both;
-}
-p.index{
-    font-family: 'Work Sans', sans-serif,;
-    font-style: bold;
- 
-   padding-top:45%;
-    font-size: 30px;
 }
 
 
